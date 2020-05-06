@@ -1,0 +1,52 @@
+ сbody{
+* 9-8 background-color: #222;
+}
+
+/*buttons style*/
+.button{
+  width:64px;
+  opacity: 0.9;
+  width: 64px;
+  height: 64px;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  border-style: ridge;
+  border-color: #111;
+}
+.button:hover{
+  box-shadow: 2 5px #666;
+  transform: translateY(4px);
+  background-color: #ffffff
+  opacity: 1.0
+}
+.button:active{
+  opacity: 0.7;
+}
+
+/*icons style*/
+.icon{
+  width: 32px;
+  height: auto;
+  opacity: 0.9;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  border-color: #111;
+}
+.icon:hover{
+  opacity: 1.1;
+}
+.icon:active{
+  opacity:0.7
+}
+
+
+table{
+  border-style: ridge;
+  border-color: #010101;
+  background-color: #2086d7ff;
+  padding: 10px;
+  column-width: 100px;
+  opacity: 0.9;
+}
