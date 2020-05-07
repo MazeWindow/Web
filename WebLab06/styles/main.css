@@ -1,0 +1,45 @@
+html{
+    background-color:  #38084de7;
+}
+
+body{
+    align-content: center;
+}
+.button{
+    margin: 10px;
+    height: 20px;
+    width: 100px;
+    border: ridge 2px #2E0042;
+    padding: 1%;
+    background-color:#afbcc2;
+    color: #2E0042;
+    opacity: 0.85;
+    text-align: center;
+}
+.button:hover{
+    opacity: 0.5;
+    transform: translate(2px,-2px);
+}
+.button:active{
+    opacity: 1;
+    transform: translate(1px,-1px);
+}
+
+footer{
+    margin: 10px;
+    height: auto;
+    width: fit-content;
+    border: ridge 2px #2E0042;
+    padding: 1%;
+    background-color:#afbcc2;
+    color: #2E0042;
+    opacity: 0.0;
+}
+footer:hover{
+    opacity: 0.5;
+    transform: translate(4px,-4px);
+}
+footer:active{
+    opacity: 1;
+    transform: translate(3px,-3px);
+}

@@ -1,0 +1,46 @@
+html{
+    background-color: #CBB8BB;
+}
+
+#rect{
+    height: 200px;
+    width: 200px;
+    padding: 1%;
+    position: fixed;
+    top: 50%;
+    left:50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    background-color: #7BB3B2;
+    color: #473D42;
+    font-size: 30px;
+    text-align: center;
+}
+
+#rect:hover{
+    animation-name: rainbow;
+    animation-duration: 2.1s;
+    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-fill-mode: forwards;
+}
+
+@keyframes rainbow{
+    from{
+        background-color: #7bb3b2;
+    }
+    to{
+        background-color: #2A3F3D;
+        color: #CBB8BB;
+    }
+    2%{
+        color: #7bb3b2;
+    }
+    50%{
+        background-color: #CBB8BB;
+        color: rgb(27, 32, 3);
+        translate: 1px 1px;
+    }
+    98%{
+        color: rgba(42, 63, 61, 0.726);
+    }
+}

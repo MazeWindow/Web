@@ -1,0 +1,22 @@
+html{
+    background-color: #649381;
+}
+
+#square{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    left:50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #DABC69;
+    color: #190E09;
+}
+    
+#square:hover{
+    transform: scale(0.5);
+    transition: transform 3s linear;
+}
