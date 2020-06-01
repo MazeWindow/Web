@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+section {
+    padding: 50px 0;
+    clear: both;
+}
+
+h2 {
+    font-size: 3vw;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    opacity: 0.3;
+    text-align: center;
+    font-size: 1.8vw;
+}
+
+/*Адаптація для телефонів*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 3%;
+}
+
+.float-clearing {
+    zoom: 1;
+}
+
+.float-clearing:after {
+    zoom: 1;
+    content: " ";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* Header Style */
+header {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-menu {
+    float: right;
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 0.8em;
+}
+
+nav {
+    height: 60px;
+    padding: 15px;
+}
+
+.mobile-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    display: none;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.mobile-nav img {
+    font-size: 200%;
+    color: #fff;
+}
+
+.main {
+    width: 414px;
+    height: 414px;
+    box-shadow: 0 0 65px rgba(218, 229, 239, 0.55);
+    background-color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -207px;
+}
+
+.text {
+    padding-top: 151px;
+}
+
+.text-title {
+    color: #43a9ff;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding-top: 114px;
+    padding-bottom: 12px;
+    padding-left: 130px;
+    padding-right: 130px;
+    /* Text style for "CRIOS" */
+    letter-spacing: 0.48px;
+}
+
+.help-info {
+    color: #4b5863;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.18px;
+    opacity: 0.15;
+}
+
+.search {
+    padding: 20px 21px 19px 18px;
+}
+
+.short {
+    margin-top: 7%;
+    text-align: center;
+}
+
+
+/* Horse */
+.horse {
+    background-image: url("../img/horse.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/* Icons */
+
+.icons-section {
+    margin-top: 700px;
+}
+
+.icons {
+    margin-top: 100px;
+    display: flex;
+}
+
+.icon-image {
+    font-size: 1.8vw;
+    margin-bottom: 40px;
+    margin-left: 35%;
+}
+
+.icon-logo {
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.icon-text {
+    opacity: 0.35;
+    width: 100%;
+    color: #4b5863;
+    font-size: 1.4vw;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+
+.check-button {
+    width: 229px;
+    height: 51px;
+    box-shadow: 0 0 35px rgba(218, 229, 239, 0.45);
+    border-radius: 22px;
+    background-color: #ffffff;
+    color: #43a9ff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.14px;
+}
+
+/* Amazing sectin */
+
+.col-6 {
+    padding: 0;
+}
+
+.amazing-content {
+    background-color: #f7f8fb;
+    padding: 6% 4% 5% 5%;
+}
+
+.amazing-image {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*  APP */
+#app-section {
+    padding: 0;
+}
+
+.winterOne {
+    background: url(../img/winter.png) no-repeat left top -100px;
+}
+
+.winterTwo {
+    background: url(../img/winter1.png) no-repeat right bottom -100px;
+}
+
+#app-section img {
+    height: 50vw;
+    margin: 10vw auto;
+    display: block;
+}
+
+.app-content {
+    text-align: center;
+    margin-top: 25vw;
+}
+
+
+/* Person */
+
+#person {
+    background-color: #f7f8fb;
+}
+
+.John {
+    background: url(../img/winter2.png) no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+.John img {
+    height: 20vw;
+    margin: 10vw 6vw;
+}
+
+.person-info {
+    margin: 10vw 1vw;
+}
+
+.person-title {
+    color: #fe3254;
+    font-size: 3vw;
+    letter-spacing: 0.48px;
+}
+
+.person-text {
+    opacity: 0.35;
+    font-size: 1.8vw;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.16px;
+}
+
+.person-name {
+    color: #000000;
+    font-size: 1.8vw;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.16px;
+}
+
+.personT {
+    opacity: 0.25;
+    color: #4b5863;
+    font-weight: 400;
+    line-height: 36px;
+    font-size: 1.8vw;
+    letter-spacing: 0.16px;
+}
+
+.forest {
+    margin-top: 100px;
+    text-align: center;
+    background-image: url("../img/forest.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+    position: absolute;
+}
+
+.forest-content {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.button {
+    width: 229px;
+    height: 51px;
+    box-shadow: 0 0 35px rgba(218, 229, 239, 0.45);
+    border-radius: 22px;
+    background-color: #ffffff;
+    color: #43a9ff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.14px;
+    display: block;
+    margin: 0 auto;
+}
+
+.forms {
+    margin-top: 20%;
+}
+
+/************************
+Anamation Styles
+**************************/
+
+.anim1,
+.anim2,
+.anim3 {
+    opacity: 0;
+}
+
+.anim1.animated,
+.anim2.animated,
+.anim3.animated {
+    opacity: 1;
+}
+
+/* Media Querry Styles */
+
+@media only screen and (max-width: 1000px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .mobile-nav {
+        display: inline-block;
+    }
+
+    .main-menu {
+        float: right;
+        margin-top: 30px;
+        display: none;
+    }
+
+    .main-menu li {
+        display: block;
+        padding: 10px 0;
+    }
+}
